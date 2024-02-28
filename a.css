@@ -1,8 +1,16 @@
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
     background-color: white;
     background-repeat: no-repeat;
     background-position: right top;
+    vertical-align: middle;
 }
+
 
 .card {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
@@ -58,6 +66,30 @@ body {
     z-index: 1;
 }
 
+
+.profilepic { 
+    background-color: white;
+    border-radius: 50%; 
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    box-shadow:0 1px 3px rgba(0,0,0,.2);
+}
+
 .headerimg {
+    position:relative;
+    height:220px;
     z-index: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.imgwrapper {
+    position:relative;
+    top:-40px;
+    left: 20px;
+    overflow:auto;
+    z-index: 2;
 }
