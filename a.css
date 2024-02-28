@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.card {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 10px;
+    width: max-content;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.pformat1 {
+    margin: 0px;
+    padding-left: 30px;
+}
+
+.tabitem {
+    overflow: hidden;
+    border: 0.5px solid #ccc;
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 2px;
+    display: table-cell;
+    margin: 0px;
+}
+
+.is-chosen {
+    color:#409eff;
+    border-bottom: 0px;
+}
+
+#infoText {
+    display: table-cell;
+}
+
+.infoCard {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.h4col {
+    display: table-cell;
+}
+
+.circleimage {
+    position: relative; 
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    z-index: 1;
+}
+
+.headerimg {
+    z-index: 0;
+}
